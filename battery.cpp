@@ -16,4 +16,4 @@ bool batteryIsOk(float temperature, float soc, float chargeRate) {
 observation:
 code is violating SRP
 could be broken into 3 functions
-in case of multiple failures in battery, we will rcv just one msg which came earlier in the loop
+in case of multiple failures in battery, we will rcv just one msg which came earlier in the fn
